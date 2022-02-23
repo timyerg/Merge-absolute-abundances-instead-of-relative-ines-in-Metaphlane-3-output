@@ -10,6 +10,6 @@ Download the script, make it executable:
 ```chmod +x merge_metaphlan_tables_abs.py```
 
 
-Then run it as for relative abundance merging.
+Then run it as for relative abundance merging (provide the full path to the script to call it from the terminal).
 
 Here is the link to Metaphlan3 repository: https://github.com/biobakery/MetaPhlAn
