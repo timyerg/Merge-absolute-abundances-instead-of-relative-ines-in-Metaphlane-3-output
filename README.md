@@ -4,6 +4,7 @@ Note that to get "absolute" abundances in addition to relative ones you need to 
 
 ### How to use:
 Download the script, make it executable:
+
 ```wget https://github.com/timyerg/Metaphlan3-absolute-abundance-merger/blob/main/merge_metaphlan_tables_abs.py?raw=true -O merge_metaphlan_tables_abs.py```
 ```chmod +x merge_metaphlan_tables_abs.py```
 
