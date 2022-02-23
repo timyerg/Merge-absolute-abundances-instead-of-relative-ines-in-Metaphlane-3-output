@@ -45,7 +45,7 @@ def merge( aaastrIn, ostm ):
                           names = names,
                           usecols=range(5),
                         ).fillna('')
-        iIn.drop(['relative_abundance','coverage'],axis=1,inplace=True)
+        iIn.drop(['relative_abundance','coverage'],axis=1,inplace=True) #merge abs. abundances instead of relative ones. That's all I changed, the rest is the same
         iIn = iIn.set_index(iIn.columns[index_col].to_list())
         if merged_tables.empty:
             merged_tables = iIn.iloc[:,0].rename(os.path.splitext(os.path.basename(f))[0]).to_frame()
