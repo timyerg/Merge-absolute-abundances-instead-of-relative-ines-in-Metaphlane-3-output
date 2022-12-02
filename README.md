@@ -8,9 +8,12 @@ Download the script, make it executable:
 ```
 v=4 #metaphlan version
 wget -O merge_metaphlan_tables_abs.py \
-https://github.com/timyerg/Metaphlan-absolute-abundance-merger/blob/main/merge_metaphlan${v}_tables_abs.py?raw=true```
+https://github.com/timyerg/Metaphlan-absolute-abundance-merger/blob/main/merge_metaphlan${v}_tables_abs.py?raw=true
+```
 
-```chmod +x merge_metaphlan_tables_abs.py```
+```
+chmod +x merge_metaphlan_tables_abs.py
+```
 
 
 Then run it as for relative abundance merging (provide the full path to the script to call it from the terminal).
