@@ -3,7 +3,7 @@ This is a modified (only one line added to the original script from Metaphlan) s
 Note that to get "absolute" abundances in addition to relative ones you need to run Metaphlan with ```-t rel_ab_w_read_stats``` added to the command.
 
 ### How to use:
-Download the script, make it executable:
+Download the script, make it executable (v equal to the version of the metaphlan, 3 or 4):
 
 ```
 v=4 #metaphlan version
